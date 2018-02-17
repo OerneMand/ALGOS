@@ -73,7 +73,7 @@ class RandomQueue:
         """
         # create the right mine
         items = self._in[:self._n]
-        shuffle(items) #DOESNT WORK
+        shuffle(items)
         for x in items:
             yield x
 
